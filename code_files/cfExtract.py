@@ -15,7 +15,7 @@ def conferenceExtract(DataFrameList):
     no_conf_name = {}
 
     for i in DataFrameList:
-        df=pd.DataFrame(DataFrameList[iterator])
+        df=DataFrameList[iterator]
         teams = list(df.Team)
         conf_only = []
         team_only = []
